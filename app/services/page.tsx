@@ -4,8 +4,8 @@ import Link from "next/link";
 import Card from "../components/Card";
 
 export const metadata = {
-  title: "Our Services | Maya Physiotherapy",
-  description: "Explore the comprehensive physiotherapy and rehabilitation services offered at Maya Physiotherapy...",
+  title: "Our Services | Prime Physiotherapy",
+  description: "Explore the comprehensive physiotherapy and rehabilitation services offered at Prime Physiotherapy...",
 };
 
 const services = [

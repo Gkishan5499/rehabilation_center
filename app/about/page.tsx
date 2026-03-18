@@ -4,8 +4,8 @@ import Button from "../components/Button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us | Maya Physiotherapy",
-  description: "Learn about Maya Physiotherapy Clinic in Kanpur. Our mission, vision, and experience in providing top-notch rehabilitation services.",
+  title: "About Us | Prime Physiotherapy",
+  description: "Learn about Prime Physiotherapy Clinic. Our mission, vision, and experience in providing top-notch rehabilitation services.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
       <div className="bg-medical-dark text-white py-20 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-medical-primary/20 pattern-grid opacity-50"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Maya Physiotherapy</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Prime Physiotherapy</h1>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Dedicated to restoring your mobility, strength, and quality of life through expert care and compassion.
           </p>
@@ -27,9 +27,9 @@ export default function AboutPage() {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="w-full lg:w-1/2">
             <h2 className="text-medical-primary font-semibold tracking-wide uppercase text-sm mb-2">Who We Are</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-medical-dark mb-6">A Legacy of Healing in Kanpur</h3>
+            <h3 className="text-3xl md:text-4xl font-bold text-medical-dark mb-6">A Legacy of Healing</h3>
             <p className="text-lg text-medical-muted mb-6 leading-relaxed">
-              Located in the heart of Lal Bangla, Kanpur, Maya Physiotherapy and Rehabilitation Center has been a beacon of hope for thousands of patients suffering from pain and mobility issues.
+              Located in the heart of the Health District, Prime Physiotherapy and Rehabilitation Center has been a beacon of hope for thousands of patients suffering from pain and mobility issues.
             </p>
             <p className="text-lg text-medical-muted mb-8 leading-relaxed">
               Our clinic combines traditional therapeutic techniques with modern medical advancements to ensure that each patient receives personalized, highly effective treatment.
@@ -59,7 +59,7 @@ export default function AboutPage() {
           
           <div className="w-full lg:w-1/2">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white h-[500px] flex items-center justify-center border-4 border-white">
-              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800" alt="About Maya Physiotherapy" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800" alt="About Prime Physiotherapy" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function AboutPage() {
       {/* Why Choose Us */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-medical-dark mb-4">Why Choose Maya Physiotherapy?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-medical-dark mb-4">Why Choose Prime Physiotherapy?</h2>
           <p className="text-xl text-medical-muted">We stand out because of our unwavering dedication to your recovery.</p>
         </div>
         

@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maya Physiotherapy and Rehabilitation Center | Kanpur",
-  description: "Top-rated physiotherapy clinic in Kanpur offering pain management, sports injury rehab, post-surgery rehab, and neurological rehab.",
+  title: "Prime Physiotherapy and Rehabilitation Center",
+  description: "Top-rated physiotherapy clinic offering pain management, sports injury rehab, post-surgery rehab, and neurological rehab.",
 };
 
 export default function RootLayout({

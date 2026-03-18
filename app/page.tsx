@@ -28,7 +28,7 @@ export default function Home() {
                 Recover Faster, <br /> Live Pain-Free
               </h1>
               <p className="text-lg text-medical-muted max-w-lg leading-relaxed">
-                Expert physiotherapy and rehabilitation services tailored to your specific needs. Experience compassionate care at Maya Physiotherapy Center.
+                Expert physiotherapy and rehabilitation services tailored to your specific needs. Experience compassionate care at Prime Physiotherapy Center.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -157,7 +157,7 @@ export default function Home() {
               <h2 className="text-medical-primary font-semibold tracking-wide uppercase text-sm mb-2">About Our Clinic</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-medical-dark">Dedicated to Your Physical Well-being</h3>
               <p className="text-lg text-medical-muted leading-relaxed">
-                At Maya Physiotherapy and Rehabilitation Center, we believe in a holistic approach to healing. Our state-of-the-art facility in Kanpur is equipped with modern therapeutic technology and staffed by highly trained professionals.
+                At Prime Physiotherapy and Rehabilitation Center, we believe in a holistic approach to healing. Our state-of-the-art facility in the Metropolis is equipped with modern therapeutic technology and staffed by highly trained professionals.
               </p>
 
               <ul className="space-y-4 pt-4">
@@ -307,7 +307,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { text: "The treatment I received for my back pain was phenomenal. The staff is highly professional and caring.", author: "Rahul Sharma" },
-              { text: "Recovering from my sports injury felt impossible until I visited Maya Physiotherapy. Highly recommended!", author: "Priya Singh" },
+              { text: "Recovering from my sports injury felt impossible until I visited Prime Physiotherapy. Highly recommended!", author: "Priya Singh" },
               { text: "Excellent facilities and very knowledgeable doctors. They took the time to understand my issue thoroughly.", author: "Amit Kumar" }
             ].map((review, idx) => (
               <Card key={idx} className="p-8 bg-gray-50 border-none">
@@ -341,9 +341,9 @@ export default function Home() {
                 Book Appointment
               </Button>
             </Link>
-            <a href="tel:+919889197771" className="w-full sm:w-auto">
+            <a href="tel:+15551234567" className="w-full sm:w-auto">
               <Button className="w-full bg-white text-medical-primary hover:bg-gray-100 hover:text-medical-dark border-none" size="lg">
-                Call: +91 98891 97771
+                Call: +1 (555) 123-4567
               </Button>
             </a>
           </div>

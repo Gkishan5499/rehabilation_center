@@ -26,7 +26,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center gap-2">
               <Activity className="h-8 w-8 text-medical-primary" />
               <div>
-                <span className="font-bold text-xl text-medical-dark block leading-tight">Maya</span>
+                <span className="font-bold text-xl text-medical-dark block leading-tight">Prime</span>
                 <span className="text-xs text-medical-primary font-medium tracking-wider uppercase">Physiotherapy</span>
               </div>
             </Link>

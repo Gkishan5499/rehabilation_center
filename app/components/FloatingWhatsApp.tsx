@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 export default function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/919889197771"
+      href="https://wa.me/15551234567"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 lg:bottom-10 lg:right-10 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 z-50 group flex items-center justify-center"

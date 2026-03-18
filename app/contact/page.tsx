@@ -3,8 +3,8 @@ import Button from "../components/Button";
 import Card from "../components/Card";
 
 export const metadata = {
-  title: "Contact Us | Maya Physiotherapy",
-  description: "Get in touch with Maya Physiotherapy in Kanpur. Find our address, phone number, and opening hours.",
+  title: "Contact Us | Prime Physiotherapy",
+  description: "Get in touch with Prime Physiotherapy. Find our address, phone number, and opening hours.",
 };
 
 export default function ContactPage() {
@@ -39,7 +39,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-medical-dark text-lg mb-1">Clinic Address</h4>
-                  <p className="text-medical-muted leading-relaxed">MIG 6, KDA Colony Rd, Lal Bangla,<br/>Kanpur, Uttar Pradesh, India</p>
+                  <p className="text-medical-muted leading-relaxed">123 Healing Avenue,<br/>Health District, Metropolis, State 10001</p>
                 </div>
               </div>
               
@@ -49,7 +49,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-medical-dark text-lg mb-1">Phone Number</h4>
-                  <a href="tel:+919889197771" className="text-medical-primary font-medium hover:underline text-lg">+91 98891 97771</a>
+                  <a href="tel:+15551234567" className="text-medical-primary font-medium hover:underline text-lg">+1 (555) 123-4567</a>
                 </div>
               </div>
               
@@ -132,7 +132,7 @@ export default function ContactPage() {
       {/* Map Embed */}
       <div className="h-[400px] w-full mt-10">
         <iframe 
-          src="https://www.google.com/maps?q=MIG+6,+KDA+Colony+Rd,+Kanpur&output=embed" 
+          src="https://www.google.com/maps?q=Central+Park,+New+York&output=embed" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 
