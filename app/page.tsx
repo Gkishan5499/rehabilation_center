@@ -13,7 +13,7 @@ export default function Home() {
           <div className="absolute -top-24 -right-24 w-96 h-96 bg-medical-primary/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 -left-20 w-72 h-72 bg-medical-accent/10 rounded-full blur-3xl"></div>
         </div>
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="w-full lg:w-1/2 space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-700">
@@ -30,7 +30,7 @@ export default function Home() {
               <p className="text-lg text-medical-muted max-w-lg leading-relaxed">
                 Expert physiotherapy and rehabilitation services tailored to your specific needs. Experience compassionate care at Maya Physiotherapy Center.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link href="/contact">
                   <Button size="lg" className="w-full sm:w-auto">Book Appointment</Button>
@@ -39,24 +39,24 @@ export default function Home() {
                   <Button variant="outline" size="lg" className="w-full sm:w-auto">Explore Services</Button>
                 </Link>
               </div>
-              
+
               <div className="flex items-center gap-4 pt-6 border-t border-gray-200">
                 <div className="flex -space-x-3">
-                  {[1,2,3,4].map((i) => (
-                     <div key={i} className="w-10 h-10 rounded-full bg-gray-200 border-2 border-white flex items-center justify-center overflow-hidden">
-                       <UserCheck className="h-5 w-5 text-gray-400" />
-                     </div>
+                  {[1, 2, 3, 4].map((i) => (
+                    <div key={i} className="w-10 h-10 rounded-full bg-gray-200 border-2 border-white flex items-center justify-center overflow-hidden">
+                      <UserCheck className="h-5 w-5 text-gray-400" />
+                    </div>
                   ))}
                 </div>
                 <div>
                   <div className="flex text-yellow-400">
-                    {[1,2,3,4,5].map((i) => <Star key={i} className="h-4 w-4 fill-current" />)}
+                    {[1, 2, 3, 4, 5].map((i) => <Star key={i} className="h-4 w-4 fill-current" />)}
                   </div>
                   <p className="text-sm font-medium text-medical-dark mt-1">4.9/5 from 79+ reviews</p>
                 </div>
               </div>
             </div>
-            
+
             <div className="w-full lg:w-1/2 relative lg:h-[500px] h-[350px] animate-in fade-in slide-in-from-right-8 duration-1000">
               <div className="absolute inset-0 bg-medical-primary rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
               <div className="absolute inset-0 bg-medical-accent rounded-3xl transform -rotate-2 scale-105 opacity-20"></div>
@@ -67,7 +67,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              
+
               {/* Floating Badge */}
               <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg border border-gray-100 flex items-center gap-4 animate-bounce hover:pause">
                 <div className="bg-medical-primary-light p-3 rounded-full text-medical-primary">
@@ -91,7 +91,7 @@ export default function Home() {
             <h3 className="text-3xl md:text-4xl font-bold text-medical-dark mb-4">Comprehensive Rehabilitation Services</h3>
             <p className="text-medical-muted text-lg">We offer a wide range of specialized therapies to help you regain mobility, strength, and confidence.</p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
@@ -124,7 +124,7 @@ export default function Home() {
               </Card>
             ))}
           </div>
-          
+
           <div className="text-center mt-12">
             <Link href="/services">
               <Button variant="outline">View All Services</Button>
@@ -138,28 +138,28 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             <div className="w-full lg:w-1/2 order-2 lg:order-1 relative">
-               <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white h-[400px]">
-                  <img
-                    src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000"
-                    alt="Clinic Interior"
-                    className="w-full h-full object-cover"
-                  />
-               </div>
-               
-               {/* Experience Badge */}
-               <div className="absolute top-10 -right-8 bg-medical-dark text-white p-6 rounded-2xl shadow-xl text-center hidden md:block">
-                 <span className="text-4xl font-bold text-medical-accent block">49+</span>
-                 <span className="text-sm font-medium uppercase tracking-wider">Years Experience</span>
-               </div>
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white h-[400px]">
+                <img
+                  src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000"
+                  alt="Clinic Interior"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* Experience Badge */}
+              <div className="absolute top-10 -right-8 bg-medical-dark text-white p-6 rounded-2xl shadow-xl text-center hidden md:block">
+                <span className="text-4xl font-bold text-medical-accent block">49+</span>
+                <span className="text-sm font-medium uppercase tracking-wider">Years Experience</span>
+              </div>
             </div>
-            
+
             <div className="w-full lg:w-1/2 order-1 lg:order-2 space-y-6">
               <h2 className="text-medical-primary font-semibold tracking-wide uppercase text-sm mb-2">About Our Clinic</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-medical-dark">Dedicated to Your Physical Well-being</h3>
               <p className="text-lg text-medical-muted leading-relaxed">
                 At Maya Physiotherapy and Rehabilitation Center, we believe in a holistic approach to healing. Our state-of-the-art facility in Kanpur is equipped with modern therapeutic technology and staffed by highly trained professionals.
               </p>
-              
+
               <ul className="space-y-4 pt-4">
                 {[
                   "Personalized treatment plans",
@@ -173,7 +173,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              
+
               <div className="pt-6">
                 <Link href="/about">
                   <Button>Read Our Full Story</Button>
@@ -184,20 +184,126 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-medical-primary font-semibold tracking-wide uppercase text-sm mb-2">Pricing Plans</h2>
+            <h3 className="text-3xl md:text-4xl font-bold text-medical-dark mb-4">Transparent & Affordable Care</h3>
+            <p className="text-lg text-medical-muted font-medium">Choose the plan that fits your recovery journey. No hidden fees.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Plan 1 */}
+            <Card className="p-8 border-none bg-white shadow-lg relative flex flex-col">
+              <div className="mb-8">
+                <h4 className="text-xl font-bold text-medical-dark mb-2">Initial Consultation</h4>
+                <div className="flex items-baseline gap-1 mb-4">
+                  <span className="text-4xl font-extrabold text-medical-primary">₹500</span>
+                  <span className="text-medical-muted font-medium">/ session</span>
+                </div>
+                <p className="text-medical-muted">Perfect for diagnosing your condition and mapping a recovery plan.</p>
+              </div>
+              <ul className="space-y-4 mb-8 flex-1">
+                {[
+                  "Comprehensive assessment",
+                  "Range of motion testing",
+                  "Postural evaluation",
+                  "Personalized recovery roadmap"
+                ].map((feature, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-medical-accent shrink-0 mt-0.5" />
+                    <span className="text-medical-dark font-medium">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/contact" className="mt-auto">
+                <Button className="w-full" variant="outline">Book Consultation</Button>
+              </Link>
+            </Card>
+
+            {/* Plan 2 */}
+            <Card className="p-10 border-2 border-medical-primary bg-white relative flex flex-col transform md:-translate-y-4 shadow-xl ">
+              <div className="absolute top-0 left-1/2 mt-2  transform -translate-x-1/2 -translate-y-1/2 bg-medical-primary text-white px-4 py-1.5 rounded-full text-sm font-semibold tracking-wide shadow-md">
+                MOST POPULAR
+              </div>
+              <div className="mb-8">
+                <h4 className="text-xl font-bold text-medical-dark mb-2">Standard Therapy</h4>
+                <div className="flex items-baseline gap-1 mb-4">
+                  <span className="text-4xl font-extrabold text-medical-primary">₹800</span>
+                  <span className="text-medical-muted font-medium">/ session</span>
+                </div>
+                <p className="text-medical-muted">Ideal for active treatment utilizing advanced therapeutic modalities.</p>
+              </div>
+              <ul className="space-y-4 mb-8 flex-1">
+                {[
+                  "Manual therapy",
+                  "Electrotherapy (TENS/IFT)",
+                  "Targeted stretching",
+                  "Pain relief management",
+                  "Home exercise plan"
+                ].map((feature, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-medical-accent shrink-0 mt-0.5" />
+                    <span className="text-medical-dark font-medium">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/contact" className="mt-auto">
+                <Button className="w-full text-lg shadow-md hover:shadow-lg">Book Session</Button>
+              </Link>
+            </Card>
+
+            {/* Plan 3 */}
+            <Card className="p-8 border-none bg-white shadow-lg relative flex flex-col">
+              <div className="mb-8">
+                <h4 className="text-xl font-bold text-medical-dark mb-2">Recovery Package</h4>
+                <div className="flex items-baseline gap-1 mb-4">
+                  <span className="text-4xl font-extrabold text-medical-primary">₹3,500</span>
+                  <span className="text-medical-muted font-medium">/ 5 sessions</span>
+                </div>
+                <p className="text-medical-muted">Post-surgery or chronic condition recovery with dedicated support.</p>
+              </div>
+              <ul className="space-y-4 mb-8 flex-1">
+                {[
+                  "5 complete therapy sessions",
+                  "Priority booking slots",
+                  "Progress tracking",
+                  "Weekly reassessment",
+                  "WhatsApp support"
+                ].map((feature, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-medical-accent shrink-0 mt-0.5" />
+                    <span className="text-medical-dark font-medium">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/contact" className="mt-auto">
+                <Button className="w-full" variant="outline">Choose Package</Button>
+              </Link>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12 bg-medical-primary-light/50 border border-medical-primary/20 rounded-2xl p-6 mx-auto max-w-4xl text-medical-dark">
+            <span className="font-semibold text-medical-primary">Note:</span> Specialized treatments like Neurological Rehab or Sports Injury may have custom pricing. Please <Link href="/contact" className="font-bold hover:underline">contact us</Link> for exact details.
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Preview */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-           <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-medical-primary font-semibold tracking-wide uppercase text-sm mb-2">Testimonials</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-medical-dark mb-4">What Our Patients Say</h3>
             <div className="flex justify-center items-center gap-2 mb-4">
               <div className="flex text-yellow-400">
-                  {[1,2,3,4,5].map((i) => <Star key={i} className="h-5 w-5 fill-current" />)}
+                {[1, 2, 3, 4, 5].map((i) => <Star key={i} className="h-5 w-5 fill-current" />)}
               </div>
               <span className="font-bold text-lg text-medical-dark">4.9/5 Rating</span>
             </div>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { text: "The treatment I received for my back pain was phenomenal. The staff is highly professional and caring.", author: "Rahul Sharma" },
@@ -206,7 +312,7 @@ export default function Home() {
             ].map((review, idx) => (
               <Card key={idx} className="p-8 bg-gray-50 border-none">
                 <div className="flex text-yellow-400 mb-4">
-                  {[1,2,3,4,5].map((i) => <Star key={i} className="h-4 w-4 fill-current" />)}
+                  {[1, 2, 3, 4, 5].map((i) => <Star key={i} className="h-4 w-4 fill-current" />)}
                 </div>
                 <p className="text-medical-dark italic mb-6">"{review.text}"</p>
                 <div className="flex items-center gap-4">
