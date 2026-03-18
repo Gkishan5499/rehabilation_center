@@ -342,7 +342,7 @@ export default function Home() {
               </Button>
             </Link>
             <a href="tel:+15551234567" className="w-full sm:w-auto">
-              <Button className="w-full bg-white text-medical-primary hover:bg-gray-100 hover:text-medical-dark border-none" size="lg">
+              <Button variant="outline" className="w-full bg-white" size="lg">
                 Call: +1 (555) 123-4567
               </Button>
             </a>
